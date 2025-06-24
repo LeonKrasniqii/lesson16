@@ -22,3 +22,6 @@ st.write(f"Your age is:{age}")
 
 message = st.text_area("Enter a message")
 st.write(f"Your message is:{message}")
+
+choice = st.radio("Pick Your gender",["Male","Female","Others"])
+st.write(f"You chose:{choice}")
